@@ -12,6 +12,7 @@ async function main( ) {
   try {
     await hre.run("verify:verify", {
       address: SimpleImpl.target,
+      contract: "contracts/SimpleImpl.sol:SimpleImpl"
     });
     console.log(`Contract verified to ${hre.config.etherscan.customChains[0].urls.browserURL}/address/${SimpleImpl.target}`);
   } catch (err) {
