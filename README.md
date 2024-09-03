@@ -27,3 +27,4 @@ This project demonstrates the implementation, deployment and upgrading a proxy o
    The proxy upgrade hash will be displayed afterwards!
 
 ALL CONTRACT VERIFIED! ENJOY!!
+CAUTION: VERIFY THIS BEFORE USING IT, DONT EXPOSE YOUR PRIVATE INFO!!
