@@ -9,18 +9,18 @@ This project demonstrates the implementation, deployment and upgrading a proxy o
    2. PRIVATE_KEY="YOUR PRIVATE KEY SHOULD GO HERE"
       
 3. npx hardhat run scripts/deploySimpleImpl.js --network swisstronik
-   1. Copy the contract address as displayed in the terminal output
-   2. Create the following in the .env
+   1. Copy the contract address as displayed on the terminal
+   2. Create the following variable in the .env
       SIMPLE_IMPL_ADDR="PASTE THE CONTRACT ADDRESS HERE"
       
 4. npx hardhat run scripts/deployProxyAdmin.js --network swisstronik
-   1. Copy the proxy admin contract address as displayed in the terminal output
-   2. Create the following in the .env
+   1. Copy the proxy admin contract address as displayed on the terminal
+   2. Create the following variable in the .env
       PROXY_ADMIN_ADDR="PASTE THE PROXY ADMIN CONTRACT ADDRESS HERE"
       
 5. npx hardhat run scripts/deployProxy.js --network swisstronik
-   1. Copy the proxy contract address as displayed in the terminal output
-   2. Create the following in the .env
+   1. Copy the proxy contract address as displayed on the terminal
+   2. Create the following variable in the .env
       PROXY_ADDR="PASTE THE PROXY CONTRACT ADDRESS HERE"
       
 6. npx hardhat run scripts/upgradeProxy.js --network swisstronik
